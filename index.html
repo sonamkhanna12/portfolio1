@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Logo.png "/>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-light fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>HTML CSS JS Designer</p>
+                    <h1>Hi! I'm <span>Sonam</span><br> khanna from India</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img class="userimg" src="images/photo1.jpg"/>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="as">About Me</h1>
+                        <p>I am full Stack Developer.
+                            Fuga sequi architecto facere amet vel ratione nam corrupti veritatis iste pariatur,
+                             saepe rerum mollitia, numquam dicta laborum. Doloremque at eius vel blanditiis sapiente
+                              autem sunt. Minus culpa officia tempore voluptates blanditiis 
+                            dignissimos hic doloribus ut? Inventore praesentium cupiditate maiores maxime illum.
+                             </p>
+                             <div class="tab-titles" >
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links"onclick="opentab('education')">Education</p>
+                             </div>
+                             <div class="tab-content active-tab" id="skills">
+                                <ul>
+                                    <li><span>React Developer</span><br>Desigining web/App interfaces </li>
+
+                                    <li><span>Full Stack Web development</span><br>Desigining web/App interfaces </li>
+                                    <li><span>UX/UI</span><br>Desigining web/App interfaces </li>
+                                    <li><span>Python Course</span><br>Desigining web interfaces </li>
+                                    <li><span>.net Course</span><br>Desigining App interfaces </li>
+                                </ul>
+                             </div>
+                             <div class="tab-content"id="experience">
+                                <ul>
+                                    <li><span>WordPress Developer</span><br>Desigining web/App interfaces </li>
+
+                                    <li><span>Making Web pages</span><br>Desigining web/App interfaces </li>
+                                    <li><span>Desigining </span><br>Desigining web interfaces </li>
+                                    <li><span>App Development</span><br>Desigining App interfaces </li>
+                                </ul>
+                             </div>
+                             <div class="tab-content"id ="education">
+                                <ul>
+                                   
+                                    <li><span>Full Stack Developer Course</span><br>Desigining web/App interfaces </li>
+                                    <li><span>BE CSE</span><br>Computer science Enggineering </li>
+                                    <li><span>App Development</span><br>Desigining App interfaces </li>
+                                   
+                                </ul>
+                             ]
+                             </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Services">
+            <div class="container">
+                <h1 class="sub-titles">Services</h1>
+                <div class ="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Recusandae, repudiandae.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-duotone fa-crop"></i>
+                        <h2>Ui Ux Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Recusandae, repudiandae.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Recusandae, repudiandae.</p>
+                            <a href="#">learn more</a>
+                    </div>
+                </div>
+                </div>
+        </div>
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                <ul>
+                    
+                    <li><img src="images/reacct.png"/>
+                        <h3>Chat app</h3>
+                        <div class="layer">
+                        
+                       <a href="https://chat-frontend-five.vercel.app/">
+                            <i class="fa-duotone fa-up-right-from-square">chat App</i>
+                            </a>
+                        </div>
+                    </li>
+                    <li><img src="images/s1.jpeg.png"/>
+                        <h3>Simple Interest</h3>
+                        <div class="layer">
+                                                 
+                             <a href="https://simple-interest.vercel.app/">Simple Interest</a>
+                            </div></li>
+                     <li><img src="images/tip.jpg.png"/>
+                        <h3>Tip Calculator</h3>
+                     
+                        <div class="layer">
+                            
+                        <a href="https://tipcal-two.vercel.app/">Tip Calculator</a>
+                    </div>
+                    </li>
+                     <li><img src="/images/jsdraw.png"/>
+                        <h3>Js Drawing app</h3>
+                        <div class="layer">
+                        
+                        <a href="https://jsdrawingapp.vercel.app/">Js drawing app</a>
+                    </div>
+                    </li>
+                    <li><img src="images/testi.jpeg.png"/>
+                        <h3>Testinomial App</h3>
+                        <div class="layer">
+                        
+                     <a href="https://vercel.com/sonamkhanna12/testinamial"> Testinomial App</a>
+                    </div>
+                </li>
+                    <li><img src="images/My first web page.png"/>
+                        <h3> My first web page on window 7</h3>
+                        <div class="layer">
+                
+                        <a href="https://htmlcssproject-self.vercel.app/">My first web page on Window 7</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+</div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row">
+            
+                <div class="contact-left">
+                   
+                    <p><i class="fa-sharp fa-regular fa-envelope"></i>khanna.sonam0@gmail.com</p>
+                    <p><i class="fa-sharp fa-regular fa-phone"></i>8930552183</p>
+                    <div class="social-media">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkdin"></i></a>
+                    </div>
+                    <a href="images/sonamkhanna.pdf.pdf"download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-rigth">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required/>
+                        <input type="email" name="Email" placeholder="Your Email" required/>
+                        <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+
+        </div>
+    <div class="copyright">
+        <p>copyright @ sonam khanna .<i class="fa-solid fa-heart"></i></p>
+    </div>
+    </div>
+        <script src="script.js" async defer></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwvNgebEVYEPCkzceaq24c3bzZzalErnMpoepCXLytyD4iWmUkUicYcmdbgPXA76Tw4/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg");
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=" "
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
